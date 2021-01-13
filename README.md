@@ -1,12 +1,15 @@
-## Keras style `model.summary()` in PyTorch
-[![PyPI version](https://badge.fury.io/py/torchsummary.svg)](https://badge.fury.io/py/torchsummary)
+# Advanced torchsummary with input shape
+This package is modifed based on original [torchsummary](https://github.com/sksq96/pytorch-summary) package with additional input shape visualization. It provides a more easy way to debug the Pytorch model and also a fantastic tool for those who are still in school taking Machine Learning/Deep Learning lectures, which requires input/output shape calculation on huge model.
+
+
+### Original README.md (Refer to [torchsummary](https://github.com/sksq96/pytorch-summary))
+### Keras style `model.summary()` in PyTorch
 
 Keras has a neat API to view the visualization of the model which is very helpful while debugging your network. Here is a barebone code to try and mimic the same in PyTorch. The aim is to provide information complementary to, what is not provided by `print(your_model)` in PyTorch.
 
 ### Usage
 
-- `pip install torchsummary` or 
-- `git clone https://github.com/sksq96/pytorch-summary`
+- `git clone https://github.com/skyguidance/pytorch-summary`
 
 ```python
 from torchsummary import summary
