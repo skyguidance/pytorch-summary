@@ -9,7 +9,7 @@ Keras has a neat API to view the visualization of the model which is very helpfu
 
 ### Usage
 
-- `git clone git+https://github.com/skyguidance/pytorch-summary.git
+- `git clone git+https://github.com/skyguidance/pytorch-summary.git`
 
 ```python
 from torchsummary import summary
